@@ -64,33 +64,36 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
-" シンタックスハイライトを有効化
+" Enable to syntax highlight
 syntax on
 
-" yank（コピー）した内容をクリップボードに共有
+" Copy to clip board with yank
 set clipboard=unnamed
 
-" 検索内容をハイライト
+" Highlight search result
 set hlsearch
 
-" 検索で大小文字の違いを無視
+" Ifnore letter case
 set ignorecase
 
-" タブ入力を2つの半角スペースに
+" Convert tab to bi-space
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
-" 改行時の自動インデント有効化
+" Default set paste
+set paste
+
+" Enable to auto indent with return
 set autoindent
 
-" インクリメンタルサーチの有効化
+" Enable to incremental search
 set incsearch
 
-" 行番号の表示
+" Show Line Numbers
 set number
 
-" for airline
+" For airline
 set laststatus=2
 
 " font
